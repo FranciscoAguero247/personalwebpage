@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    background-image: url(Images/wp2534478-letter-f-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a:link{
+    color: gray;
+}
+a:visited{
+    color: rgb(149, 149, 149);
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: rgb(222, 222, 222);
+}
+p{
+    color: rgb(252, 251, 251);
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: hsl(0, 1%, 66%);
+    text-decoration: solid;
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    color: hsl(0, 1%, 66%);
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 29%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(164, 162, 162);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 38%, 18%);
+    transform: scale(1.09);
+}
+.navbar a:active{
+    background-color: hsl(0, 1%, 37%);
+    transform: scale(1.09);
+}
+.navbar li{
+    float: left;
+}
+.maininfo{
+    text-align: center;
+}
+.maininfo h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    animation: 10s infinite linear slidein;
+}
+footer{
+    color: red;
+}
+@media screen and (max-width:600px) {
+    aside, section, article{
+       width: 100%; 
+    }
+}
+@keyframes slidein {
+    from{
+       transform: translateX(50%); 
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
