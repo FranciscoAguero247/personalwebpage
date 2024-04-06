@@ -38,31 +38,6 @@ h3{
     color: hsl(0, 1%, 66%);
 }
 
-.navbar ul{
-    list-style-type: none;
-    background-color: hsl(0, 0%, 29%);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar a{
-    color: rgb(164, 162, 162);
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-.navbar a:hover{
-    background-color: hsl(0, 38%, 18%);
-    transform: scale(1.09);
-}
-.navbar a:active{
-    background-color: hsl(0, 1%, 37%);
-    transform: scale(1.09);
-}
-.navbar li{
-    float: left;
-}
 .maininfo{
     text-align: center;
 }
