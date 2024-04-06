@@ -37,8 +37,9 @@ h2{
 h3{
     color: hsl(0, 1%, 66%);
 }
-.nav-link .active{
-    background-color: white;
+.active{
+    color: black !important;
+    background-color: white!important;
 }
 .maininfo{
     text-align: center;
