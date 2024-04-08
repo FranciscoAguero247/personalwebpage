@@ -30,6 +30,9 @@ body{
 .text-muted{
     color: white!important;
 }
+.text-body-secondary{
+    color: white!important;
+}
 a:link{
     color: gray;
 }
