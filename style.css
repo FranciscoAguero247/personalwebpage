@@ -21,8 +21,14 @@ body{
     color: white!important;
     text-align: left;
 }
+.text-center{
+    background-color: transparent!important;
+}
 .lead{
     color: white;
+}
+.text-muted{
+    color: white!important;
 }
 a:link{
     color: gray;
