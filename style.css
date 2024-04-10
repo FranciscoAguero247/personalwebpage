@@ -125,7 +125,7 @@ body{
 
 .box .content {
   padding: 30px 90px 30px 30px;
-  background: #F6D155;
+  background: rgba(0, 255, 0, 0.671);
   position: relative;
   border-radius: 0 500px 500px 0;
 }
