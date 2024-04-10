@@ -24,7 +24,7 @@ body{
   content: '';
   position: absolute;
   width: 2px;
-  background: #006E51;
+  background: white;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -54,7 +54,7 @@ body{
   top: calc(50% - 8px);
   right: -8px;
   background: #ffffff;
-  border: 2px solid #006E51;
+  border: 2px solid white;
   border-radius: 16px;
   z-index: 1;
 }
@@ -70,7 +70,7 @@ body{
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #006E51;
+  background: white;
   z-index: 1;
 }
 
@@ -85,7 +85,7 @@ body{
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #006E51;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -107,11 +107,11 @@ body{
   padding: 9px 0;
   top: calc(50% - 20px);
   background: #F6D155;
-  border: 2px solid #006E51;
+  border: 2px solid white;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #006E51;
+  color: white;
   z-index: 1;
 }
 
@@ -139,7 +139,7 @@ body{
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #006E51;
+  color: white;
 }
 
 .box .content p {
@@ -172,7 +172,7 @@ body{
   .box.left::before,
   .box.right::before {
     left: 100px;
-    border-color: transparent #006E51 transparent transparent;
+    border-color: transparent white transparent transparent;
   }
 
   .box.left .date,
