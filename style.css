@@ -254,6 +254,12 @@ h3{
 .maininfo{
     text-align: center;
 }
+.blog-image-preview img{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 footer{
     color: red;
 }
