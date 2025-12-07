@@ -150,6 +150,32 @@ body{
   color: #000000;
 }
 
+.section__email-submission{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__input--btn{
+  display: flex;
+  color: gray;
+  border-radius: 10%;
+  background-color: black;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: white;
+}
+
+.section__input--btn:hover{
+    background-color: grey;
+}
+
+.text--white-background{
+  background-color: white;
+  border-radius: 5%;
+  color: black;
+}
+
 @media (max-width: 767.98px) {
   .timeline::after {
     left: 90px;
