@@ -175,6 +175,10 @@ body{
   border-radius: 5%;
   color: black;
 }
+.blog-image-preview{
+  display: flex; 
+  justify-content: space-around;
+}
 
 @media (max-width: 767.98px) {
   .timeline::after {
